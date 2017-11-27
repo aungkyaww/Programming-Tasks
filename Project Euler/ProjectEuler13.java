@@ -1,4 +1,4 @@
-public class PE13 {
+public class ProjectEuler13 {
   
     /**
      * @param args the command line arguments
