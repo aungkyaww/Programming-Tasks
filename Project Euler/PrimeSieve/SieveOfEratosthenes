@@ -1,0 +1,50 @@
+public class SieveOfEratosthenes {
+
+    /**
+     * @param args the command line arguments
+     */
+    
+      public static int[] findPrimesUpTo(int n) {
+        //Sieve Of Eratosthenes
+        boolean[] sieve = new boolean[n];
+        ArrayList<Integer> primes = new ArrayList<Integer>();
+        sieve[1] = true;
+       // int numOfPrimes = 1;
+        int p = 2;
+        primes.add(p);
+        
+        boolean finished = false;
+
+        while (finished == false) {
+            for (int i = p * 2; i < sieve.length; i += p)
+            {
+                sieve[i] = true;
+            }
+            finished = true;
+            for (int j = p + 1; j < sieve.length; j++) {
+                if (sieve[j] == false) {
+                    finished = false;
+                    p = j;
+                 
+                    primes.add(p);
+                    break;
+                }
+            }
+            
+        }
+        
+       
+        int[] primesArray = primes.stream().mapToInt(i->i).toArray();
+        
+         
+        return primesArray;
+        
+    }
+      
+    public static void main(String[] args) {
+        int[] primes = new int[100];
+        primes = findPrimesUpTo(10001);
+       
+    }
+    
+}
