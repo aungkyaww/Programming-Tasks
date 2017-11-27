@@ -1,4 +1,4 @@
-public class PE3 {
+public class ProjectEuler3 {
 
   
 
