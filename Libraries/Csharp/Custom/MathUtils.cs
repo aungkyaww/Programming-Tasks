@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//Compile with XML Documentation Comments enabled to see comments in IntelliSense menu             
+//https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 namespace MathUtils
-{/// <summary>
+{
+/// <summary>
 /// A collection of utilies for generating or checking prime numbers
 /// </summary>
     public static class PrimeUtils
