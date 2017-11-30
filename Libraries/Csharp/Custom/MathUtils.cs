@@ -8,8 +8,7 @@ using System.Threading.Tasks;
 //https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 namespace MathUtils
-{
-/// <summary>
+{/// <summary>
 /// A collection of utilies for generating or checking prime numbers
 /// </summary>
     public static class PrimeUtils
@@ -162,7 +161,7 @@ namespace MathUtils
             string bin = "";
             while (dec != 0)
             {
-                bin += (dec % 2);
+                bin = (dec % 2) + bin;
                 dec = dec / 2;
             }
             return bin;
@@ -178,7 +177,7 @@ namespace MathUtils
             string bin = "";
             while (dec != 0)
             {
-                bin += (dec % 2);
+                bin += (dec % 2) + bin;
                 dec = dec / 2;
             }
             return bin;
@@ -194,7 +193,7 @@ namespace MathUtils
             string bin = "";
             while (dec != 0)
             {
-                bin += (dec % 2);
+                bin += (dec % 2) + bin;
                 dec = dec / 2;
             }
             return bin;
@@ -210,7 +209,7 @@ namespace MathUtils
             string bin = "";
             while (dec != 0)
             {
-                bin += (dec % 2);
+                bin += (dec % 2) + bin;
                 dec = (byte) (dec / 2);
             }
             return bin;
