@@ -6,9 +6,27 @@ using System.Threading.Tasks;
 
 namespace MathUtils
 {
-    public class PrimeUtils
+    public static class PrimeUtils
     {
-        public Boolean IsPrime(long n)
+
+
+        private static void Fill<T>(this T[] arr, T value)
+        {
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+
+                arr[i] = value;
+            }
+        }
+
+
+        /// <summary>
+        /// Checks a positive integer for primality
+        /// </summary>
+        /// <param name="n">Number to check for primality</param>
+        /// <returns>bool</returns>
+        public static Boolean IsPrime(long n)
         {
 
             if (n <= 0)
@@ -35,11 +53,50 @@ namespace MathUtils
             }
             return true;
         }
+        /// <summary>
+        /// Uses a prime seive to generate primes up to n
+        /// </summary>
+        /// <param name="n">inclusive of n</param>
+        /// <returns>int[] array of primes</returns>
+        public static int[] Sieve(int n)
+        {
+            List<int> primes = new List<int>();
+            bool[] c = new bool[n];
+            c.Fill(false);
+            primes.Add(2);
+
+            int p = 3;
+            int i = 3;
+            int nSquared = n * n;
+            while (p <= n)
+            {
+
+                if (!c[p])
+                {
+                    primes.Add(p);
+                    i = p * p;
+                    while (i <= n)
+                    {
+                        c[i] = true; //considered
+                        i += p;
+                    }
+                }
+                p += 2;
+            }
+            int[] a = primes.ToArray();
+            return a;
+        }
 
     }
-    public class DivUtils
+    public static class DivUtils
     {
-        public int GCD(int a, int b)
+        /// <summary>
+        /// Finds the General Common Divisor of two integers.
+        /// </summary>
+        /// <param name="a">first</param>
+        /// <param name="b">second</param>
+        /// <returns>int</returns>
+        public static int GCD(int a, int b)
         {
             {
                 int temp = 0;
@@ -60,23 +117,54 @@ namespace MathUtils
             }
         }
     }
-    public class NumberUtils
+    public static class NumberUtils
     {
-        public long Factorial(long a)
+
+
+        /// <summary>
+        /// returns the factorial of a number
+        /// </summary>
+        /// <param name="a">n</param>
+        /// <returns>long</returns>
+        public static long Factorial(long a)
         {
             if (a <= 0)
             {
                 return 0;
             }
 
-            int sum = 1;
-            for (int i = 1; i < a; i++)
+            long sum = 1;
+            for (int i = 1; i <= a; i++)
             {
                 sum *= i;
             }
+
             return sum;
         }
+
+        public static string DecToBin(int dec)
+        {
+            string bin = "";
+            while (dec != 0)
+            {
+                bin += (dec % 2);
+                dec = dec / 2;
+            }
+            return bin;
+        }
+        public static int BinToDec(string bin)
+        {
+            int dec = 0;
+            int multiplier = 1;
+            for (int i = bin.Length - 1; i >= 0; i--)
+            {
+                dec += int.Parse(bin[i].ToString()) * multiplier;
+                multiplier *= 2;
+            }
+            return dec;
+        }
     }
+
 
 
 }
