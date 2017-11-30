@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace MathUtils
-{
+{/// <summary>
+/// A collection of utilies for generating or checking prime numbers
+/// </summary>
     public static class PrimeUtils
     {
 
@@ -67,7 +69,7 @@ namespace MathUtils
 
             int p = 3;
             int i = 3;
-            int nSquared = n * n;
+            //int nSquared = n * n;
             while (p <= n)
             {
 
@@ -87,7 +89,9 @@ namespace MathUtils
             return a;
         }
 
-    }
+    }/// <summary>
+    /// a GCD algorithm. There may be other fractional related utilies added here in future
+    /// </summary>
     public static class DivUtils
     {
         /// <summary>
@@ -117,6 +121,9 @@ namespace MathUtils
             }
         }
     }
+    /// <summary>
+    /// Factorials and Base conversions
+    /// </summary>
     public static class NumberUtils
     {
 
@@ -141,7 +148,11 @@ namespace MathUtils
 
             return sum;
         }
-
+        /// <summary>
+        /// Takes a Decimal Value and converts it to Binary
+        /// </summary>
+        /// <param name="dec">A decimal number</param>
+        /// <returns>A String of the binary representation of the value</returns>
         public static string DecToBin(int dec)
         {
             string bin = "";
@@ -152,6 +163,60 @@ namespace MathUtils
             }
             return bin;
         }
+
+        /// <summary>
+        /// Takes a Decimal Value and converts it to Binary
+        /// </summary>
+        /// <param name="dec">A decimal number</param>
+        /// <returns>A String of the binary representation of the value</returns>
+        public static string DecToBin(long dec)
+        {
+            string bin = "";
+            while (dec != 0)
+            {
+                bin += (dec % 2);
+                dec = dec / 2;
+            }
+            return bin;
+        }
+
+        /// <summary>
+        /// Takes a Decimal Value and converts it to Binary
+        /// </summary>
+        /// <param name="dec">A decimal number</param>
+        /// <returns>A String of the binary representation of the value</returns>
+        public static string DecToBin(double dec)
+        {
+            string bin = "";
+            while (dec != 0)
+            {
+                bin += (dec % 2);
+                dec = dec / 2;
+            }
+            return bin;
+        }
+
+        /// <summary>
+        /// Takes a Decimal Value and converts it to Binary
+        /// </summary>
+        /// <param name="dec">A decimal number</param>
+        /// <returns>A String of the binary representation of the value</returns>
+        public static string DecToBin(byte dec)
+        {
+            string bin = "";
+            while (dec != 0)
+            {
+                bin += (dec % 2);
+                dec = (byte) (dec / 2);
+            }
+            return bin;
+        }
+
+        /// <summary>
+        /// Takes a binary string and converts it into a 32-bit integer
+        /// </summary>
+        /// <param name="bin">A string representing binary values</param>
+        /// <returns>A 32-bit integer</returns>
         public static int BinToDec(string bin)
         {
             int dec = 0;
@@ -159,6 +224,23 @@ namespace MathUtils
             for (int i = bin.Length - 1; i >= 0; i--)
             {
                 dec += int.Parse(bin[i].ToString()) * multiplier;
+                multiplier *= 2;
+            }
+            return dec;
+        }
+
+        /// <summary>
+        /// Takes a binary string and converts it into a 64-bit long
+        /// </summary>
+        /// <param name="bin">A string representing binary values</param>
+        /// <returns>A 64-bit integer</returns>
+        public static long BinToDecLong(string bin)
+        {
+            long dec = 0;
+            int multiplier = 1;
+            for (int i = bin.Length - 1; i >= 0; i--)
+            {
+                dec += long.Parse(bin[i].ToString()) * multiplier;
                 multiplier *= 2;
             }
             return dec;
