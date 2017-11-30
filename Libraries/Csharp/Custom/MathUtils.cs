@@ -75,7 +75,7 @@ namespace MathUtils
                 {
                     primes.Add(p);
                     i = p * p;
-                    while (i <= n)
+                    while (i < n)
                     {
                         c[i] = true; //considered
                         i += p;
