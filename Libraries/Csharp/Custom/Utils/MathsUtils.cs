@@ -94,8 +94,8 @@ namespace Utils.MathUtils
         }
 
     }/// <summary>
-    /// a GCD algorithm. There may be other fractional related utilies added here in future
-    /// </summary>
+     /// a GCD algorithm. There may be other fractional related utilies added here in future
+     /// </summary>
     public static class DivUtils
     {
         /// <summary>
@@ -133,7 +133,7 @@ namespace Utils.MathUtils
 
 
         /// <summary>
-        /// returns the factorial of a number
+        /// returns the factorial of a number.
         /// </summary>
         /// <param name="a">n</param>
         /// <returns>long</returns>
@@ -153,71 +153,280 @@ namespace Utils.MathUtils
             return sum;
         }
         /// <summary>
-        /// Takes a Decimal Value and converts it to Binary
+        /// Takes a Decimal Value and converts it to Binary.
         /// </summary>
         /// <param name="dec">A decimal number</param>
         /// <returns>A String of the binary representation of the value</returns>
         public static string DecToBin(int dec)
         {
-            string bin = "";
-            while (dec != 0)
+            if (dec == 0)
             {
-                bin = (dec % 2) + bin;
-                dec = dec / 2;
+                string bin = "0";
+                return bin;
             }
-            return bin;
+            else
+            {
+                string bin = "";
+                while (dec != 0)
+                {
+                    bin = (dec % 2) + bin;
+                    dec = dec / 2;
+                }
+                return bin;
+            }
         }
 
         /// <summary>
-        /// Takes a Decimal Value and converts it to Binary
+        /// Takes a Decimal Value and converts it to Binary.
         /// </summary>
         /// <param name="dec">A decimal number</param>
         /// <returns>A String of the binary representation of the value</returns>
         public static string DecToBin(long dec)
         {
-            string bin = "";
-            while (dec != 0)
+            if (dec == 0)
             {
-                bin += (dec % 2) + bin;
-                dec = dec / 2;
+                string bin = "0";
+                return bin;
             }
-            return bin;
+            else
+            {
+                string bin = "";
+                while (dec != 0)
+                {
+                    bin = (dec % 2) + bin;
+                    dec = dec / 2;
+                }
+                return bin;
+            }
         }
 
         /// <summary>
-        /// Takes a Decimal Value and converts it to Binary
+        /// Takes a Decimal Value and converts it to Binary.
         /// </summary>
         /// <param name="dec">A decimal number</param>
         /// <returns>A String of the binary representation of the value</returns>
         public static string DecToBin(double dec)
         {
-            string bin = "";
-            while (dec != 0)
+            if (dec == 0)
             {
-                bin += (dec % 2) + bin;
-                dec = dec / 2;
+                string bin = "0";
+                return bin;
             }
-            return bin;
+            else
+            {
+                string bin = "";
+                while (dec != 0)
+                {
+                    bin = (dec % 2) + bin;
+                    dec = dec / 2;
+                }
+                return bin;
+            }
         }
 
         /// <summary>
-        /// Takes a Decimal Value and converts it to Binary
+        /// Takes a Decimal Value and converts it to Binary.
         /// </summary>
         /// <param name="dec">A decimal number</param>
         /// <returns>A String of the binary representation of the value</returns>
         public static string DecToBin(byte dec)
         {
-            string bin = "";
-            while (dec != 0)
+            if (dec == 0)
             {
-                bin += (dec % 2) + bin;
-                dec = (byte) (dec / 2);
+                string bin = "0";
+                return bin;
             }
-            return bin;
+            else
+            {
+                string bin = "";
+                while (dec != 0)
+                {
+                    bin = (dec % 2) + bin;
+                    dec = (byte)(dec / 2);
+                }
+                return bin;
+            }
+        }
+        /// <summary>
+        /// Takes a Decimal Value and converts it to a binary number of a specified length of bits. If the specified number 
+        /// of bits is less than the length of the number, the value will not be truncated.
+        /// </summary>
+        /// <param name="dec">A decimal number</param>
+        /// <param name="numOfBits">The minimum number of bits the number should be.</param>
+        /// <returns>A String of the binary representation of the value</returns>
+        public static string DecToBin(int dec, int numOfBits)
+        {
+            if (dec == 0)
+            {
+                string bin = "0";
+                int len = bin.Length;
+                for (int i = 1; i <= numOfBits - len; i++)
+                {
+                    bin = "0" + bin;
+                }
+                return bin;
+            }
+            else
+            {
+
+                string bin = "";
+                while (dec != 0)
+                {
+                    bin = (dec % 2) + bin;
+                    dec = dec / 2;
+                }
+
+                if (bin.Length > numOfBits)
+                {
+                    return bin;
+                }
+                else
+                {
+                    int len = bin.Length;
+                    for (int i = 1; i <= numOfBits - len; i++)
+                    {
+                        bin = "0" + bin;
+                    }
+                    return bin;
+                }
+            }
+        }
+        /// <summary>
+        /// Takes a Decimal Value and converts it to a binary number of a specified length of bits. If the specified number 
+        /// of bits is less than the length of the number, the value will not be truncated.
+        /// </summary>
+        /// <param name="dec">A decimal number</param>
+        /// <param name="numOfBits">The minimum number of bits the number should be.</param>
+        /// <returns>A String of the binary representation of the value</returns>
+        public static string DecToBin(long dec, int numOfBits)
+        {
+            if (dec == 0)
+            {
+                string bin = "0";
+                int len = bin.Length;
+                for (int i = 1; i <= numOfBits - len; i++)
+                {
+                    bin = "0" + bin;
+                }
+                return bin;
+            }
+            else
+            {
+
+                string bin = "";
+                while (dec != 0)
+                {
+                    bin = (dec % 2) + bin;
+                    dec = dec / 2;
+                }
+
+                if (bin.Length > numOfBits)
+                {
+                    return bin;
+                }
+                else
+                {
+                    int len = bin.Length;
+                    for (int i = 1; i <= numOfBits - len; i++)
+                    {
+                        bin = "0" + bin;
+                    }
+                    return bin;
+                }
+            }
+        }
+        /// <summary>
+        /// Takes a Decimal Value and converts it to a binary number of a specified length of bits. If the specified number 
+        /// of bits is less than the length of the number, the value will not be truncated.
+        /// </summary>
+        /// <param name="dec">A decimal number</param>
+        /// <param name="numOfBits">The minimum number of bits the number should be.</param>
+        /// <returns>A String of the binary representation of the value</returns>
+        public static string DecToBin(double dec, int numOfBits)
+        {
+            if (dec == 0)
+            {
+                string bin = "0";
+                int len = bin.Length;
+                for (int i = 1; i <= numOfBits - len; i++)
+                {
+                    bin = "0" + bin;
+                }
+                return bin;
+            }
+            else
+            {
+
+                string bin = "";
+                while (dec != 0)
+                {
+                    bin = (dec % 2) + bin;
+                    dec = dec / 2;
+                }
+
+                if (bin.Length > numOfBits)
+                {
+                    return bin;
+                }
+                else
+                {
+                    int len = bin.Length;
+                    for (int i = 1; i <= numOfBits - len; i++)
+                    {
+                        bin = "0" + bin;
+                    }
+                    return bin;
+                }
+            }
+        }
+        /// <summary>
+        /// Takes a Decimal Value and converts it to a binary number of a specified length of bits. If the specified number 
+        /// of bits is less than the length of the number, the value will not be truncated.
+        /// </summary>
+        /// <param name="dec">A decimal number</param>
+        /// <param name="numOfBits">The minimum number of bits the number should be.</param>
+        /// <returns>A String of the binary representation of the value</returns>
+        public static string DecToBin(byte dec, int numOfBits)
+        {
+            if (dec == 0)
+            {
+                string bin = "0";
+                int len = bin.Length;
+                for (int i = 1; i <= numOfBits - len; i++)
+                {
+                    bin = "0" + bin;
+                }
+                return bin;
+            }
+            else
+            {
+
+                string bin = "";
+                while (dec != 0)
+                {
+                    bin = (dec % 2) + bin;
+                    dec = (byte)(dec / 2);
+                }
+
+                if (bin.Length > numOfBits)
+                {
+                    return bin;
+                }
+                else
+                {
+                    int len = bin.Length;
+                    for (int i = 1; i <= numOfBits - len; i++)
+                    {
+                        bin = "0" + bin;
+                    }
+                    return bin;
+                }
+            }
         }
 
+
         /// <summary>
-        /// Takes a binary string and converts it into a 32-bit integer
+        /// Takes a binary string and converts it into a 32-bit integer.
         /// </summary>
         /// <param name="bin">A string representing binary values</param>
         /// <returns>A 32-bit integer</returns>
@@ -234,7 +443,7 @@ namespace Utils.MathUtils
         }
 
         /// <summary>
-        /// Takes a binary string and converts it into a 64-bit long
+        /// Takes a binary string and converts it into a 64-bit long. Used for numbers bigger than 32-bits.
         /// </summary>
         /// <param name="bin">A string representing binary values</param>
         /// <returns>A 64-bit integer</returns>
