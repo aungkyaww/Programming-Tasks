@@ -53,7 +53,7 @@ namespace ProjectEuler38
                 {
                     for (int h = 0; h < str.Length; h++)
                     {
-                        if (str[h] == 48)
+                        if (str[h] == 48) //Char value of "0"
                         {
                             return "";
                         }
@@ -81,7 +81,7 @@ namespace ProjectEuler38
                     {
                         return "";
                     }
-                    if (str[digit] == 48)
+                    if (str[digit] == 48) //Char value of "0"
                     {
                         return "";
                     }
