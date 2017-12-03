@@ -51,5 +51,26 @@ namespace Utils.StringUtils
             byte[] bytes = del(s);
             return bytes;
         }
+          /// <summary>
+        /// Tests if a string has duplicate values within itself.
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns>Returns true if the string has duplicate values (e.g "abbc").</returns>
+        public static bool Duplicates(string s)
+        {
+            int index = 0; //minor optimisation
+            for (int i = 0; i < s.Length; i++)
+            {
+                for (int j = index; j < s.Length; j++)
+                {
+                    if ((i != j) && (s[i] == s[j]))
+                    {
+                        return true;
+                    }
+                }
+                index++;
+            }
+            return false;
+        }
     }
 }
