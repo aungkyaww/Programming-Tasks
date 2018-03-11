@@ -1,0 +1,14 @@
+C:\Users\Jake Yallop\source\repos\Discord\MusicRepoAndPlayer\MusicRepoAndPlayer\obj\Debug\MusicRepoAndPlayer.csprojResolveAssemblyReference.cache
+C:\Users\Jake Yallop\source\repos\Discord\MusicRepoAndPlayer\MusicRepoAndPlayer\obj\Debug\MusicRepoAndPlayer.Properties.Resources.resources
+C:\Users\Jake Yallop\source\repos\Discord\MusicRepoAndPlayer\MusicRepoAndPlayer\obj\Debug\MusicRepoAndPlayer.csproj.GenerateResource.Cache
+C:\Users\Jake Yallop\source\repos\Discord\MusicRepoAndPlayer\MusicRepoAndPlayer\obj\Debug\MusicRepoAndPlayer.csproj.CoreCompileInputs.cache
+C:\Users\Jake Yallop\source\repos\Discord\MusicRepoAndPlayer\MusicRepoAndPlayer\bin\Debug\MusicRepoAndPlayer.exe.config
+C:\Users\Jake Yallop\source\repos\Discord\MusicRepoAndPlayer\MusicRepoAndPlayer\bin\Debug\MusicRepoAndPlayer.exe
+C:\Users\Jake Yallop\source\repos\Discord\MusicRepoAndPlayer\MusicRepoAndPlayer\bin\Debug\MusicRepoAndPlayer.pdb
+C:\Users\Jake Yallop\source\repos\Discord\MusicRepoAndPlayer\MusicRepoAndPlayer\obj\Debug\MusicRepoAndPlayer.exe
+C:\Users\Jake Yallop\source\repos\Discord\MusicRepoAndPlayer\MusicRepoAndPlayer\obj\Debug\MusicRepoAndPlayer.pdb
+C:\Users\Jake Yallop\source\repos\Discord\MusicRepoAndPlayer\MusicRepoAndPlayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jake Yallop\source\repos\Discord\MusicRepoAndPlayer\MusicRepoAndPlayer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jake Yallop\source\repos\Discord\MusicRepoAndPlayer\MusicRepoAndPlayer\bin\Debug\TreeNodeExtended.dll
+C:\Users\Jake Yallop\source\repos\Discord\MusicRepoAndPlayer\MusicRepoAndPlayer\bin\Debug\TreeNodeExtended.pdb
+C:\Users\Jake Yallop\source\repos\Discord\MusicRepoAndPlayer\MusicRepoAndPlayer\obj\Debug\MusicRepoAndPlayer.frmMusicPlayer.resources
