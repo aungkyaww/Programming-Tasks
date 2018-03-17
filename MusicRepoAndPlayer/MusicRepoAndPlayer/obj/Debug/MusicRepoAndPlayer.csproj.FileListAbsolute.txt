@@ -24,4 +24,3 @@ C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\MusicRepoAndPlayer\Music
 C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\MusicRepoAndPlayer\MusicRepoAndPlayer\bin\Debug\MusicRepoAndPlayer.pdb
 C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\MusicRepoAndPlayer\MusicRepoAndPlayer\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\MusicRepoAndPlayer\MusicRepoAndPlayer\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\MusicRepoAndPlayer\MusicRepoAndPlayer\bin\Debug\TreeNodeExtended.pdb

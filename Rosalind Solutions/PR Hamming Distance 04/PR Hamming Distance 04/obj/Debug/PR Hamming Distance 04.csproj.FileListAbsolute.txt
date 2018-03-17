@@ -1,0 +1,6 @@
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR Hamming Distance 04\PR Hamming Distance 04\bin\Debug\PR DNA 01.exe.config
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR Hamming Distance 04\PR Hamming Distance 04\bin\Debug\PR DNA 01.exe
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR Hamming Distance 04\PR Hamming Distance 04\bin\Debug\PR DNA 01.pdb
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR Hamming Distance 04\PR Hamming Distance 04\obj\Debug\PR Hamming Distance 04.csproj.CoreCompileInputs.cache
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR Hamming Distance 04\PR Hamming Distance 04\obj\Debug\PR DNA 01.exe
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR Hamming Distance 04\PR Hamming Distance 04\obj\Debug\PR DNA 01.pdb

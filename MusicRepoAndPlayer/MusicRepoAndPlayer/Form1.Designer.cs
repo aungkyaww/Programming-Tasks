@@ -319,7 +319,7 @@
             0,
             0});
             this.numThreadDelay.Minimum = new decimal(new int[] {
-            200,
+            2000,
             0,
             0,
             0});
@@ -327,7 +327,7 @@
             this.numThreadDelay.Size = new System.Drawing.Size(97, 20);
             this.numThreadDelay.TabIndex = 32;
             this.numThreadDelay.Value = new decimal(new int[] {
-            1000,
+            4000,
             0,
             0,
             0});

@@ -1,16 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.Serialization.Formatters.Binary;
-using System.Text;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
+﻿using System.Collections.Generic;
 using System.Windows.Forms;
 
 namespace MusicRepoAndPlayer
 {
-        public enum TrackOptions {
+    public enum TrackOptions {
             Success = 1,
             Fail = 2,
             Overwrite = 3

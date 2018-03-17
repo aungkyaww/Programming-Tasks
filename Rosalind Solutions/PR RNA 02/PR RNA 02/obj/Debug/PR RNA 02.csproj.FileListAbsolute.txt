@@ -1,0 +1,14 @@
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR RNA 02\PR RNA 02\bin\Debug\PR DNA 01.exe.config
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR RNA 02\PR RNA 02\bin\Debug\PR DNA 01.exe
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR RNA 02\PR RNA 02\bin\Debug\PR DNA 01.pdb
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR RNA 02\PR RNA 02\obj\Debug\PR RNA 02.csproj.CoreCompileInputs.cache
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR RNA 02\PR RNA 02\obj\Debug\PR DNA 01.exe
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR RNA 02\PR RNA 02\obj\Debug\PR DNA 01.pdb
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR RNA 02\PR RNA 02\obj\Debug\PR RNA 02.csprojResolveAssemblyReference.cache
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\PR RNA 02\PR RNA 02\bin\Debug\PR DNA 01.exe.config
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\PR RNA 02\PR RNA 02\bin\Debug\PR DNA 01.exe
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\PR RNA 02\PR RNA 02\bin\Debug\PR DNA 01.pdb
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\PR RNA 02\PR RNA 02\obj\Debug\PR RNA 02.csprojResolveAssemblyReference.cache
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\PR RNA 02\PR RNA 02\obj\Debug\PR RNA 02.csproj.CoreCompileInputs.cache
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\PR RNA 02\PR RNA 02\obj\Debug\PR DNA 01.exe
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\PR RNA 02\PR RNA 02\obj\Debug\PR DNA 01.pdb
