@@ -1,0 +1,11 @@
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\MusicRepoAndPlayer\MusicRepoAndPlayer\bin\Release\MusicRepoAndPlayer.exe.config
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\MusicRepoAndPlayer\MusicRepoAndPlayer\bin\Release\MusicRepoAndPlayer.exe
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\MusicRepoAndPlayer\MusicRepoAndPlayer\bin\Release\MusicRepoAndPlayer.pdb
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\MusicRepoAndPlayer\MusicRepoAndPlayer\bin\Release\Newtonsoft.Json.dll
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\MusicRepoAndPlayer\MusicRepoAndPlayer\bin\Release\Newtonsoft.Json.xml
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\MusicRepoAndPlayer\MusicRepoAndPlayer\obj\Release\MusicRepoAndPlayer.frmMusicPlayer.resources
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\MusicRepoAndPlayer\MusicRepoAndPlayer\obj\Release\MusicRepoAndPlayer.Properties.Resources.resources
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\MusicRepoAndPlayer\MusicRepoAndPlayer\obj\Release\MusicRepoAndPlayer.csproj.GenerateResource.Cache
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\MusicRepoAndPlayer\MusicRepoAndPlayer\obj\Release\MusicRepoAndPlayer.csproj.CoreCompileInputs.cache
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\MusicRepoAndPlayer\MusicRepoAndPlayer\obj\Release\MusicRepoAndPlayer.exe
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\MusicRepoAndPlayer\MusicRepoAndPlayer\obj\Release\MusicRepoAndPlayer.pdb

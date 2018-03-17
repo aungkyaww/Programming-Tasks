@@ -9,3 +9,6 @@ MusicRepoAndPlayer/.vs/MusicRepoAndPlayer/v15/Server/sqlite3/storage.ide
 *.ide
 *.ide-shm
 *.ide-wal
+MusicRepoAndPlayer/MusicRepoAndPlayer/obj/Release/MusicRepoAndPlayer.pdb
+*.pdb
+*.config
