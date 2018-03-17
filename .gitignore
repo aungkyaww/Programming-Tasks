@@ -13,3 +13,6 @@ MusicRepoAndPlayer/MusicRepoAndPlayer/obj/Release/MusicRepoAndPlayer.pdb
 *.pdb
 *.config
 *.xml
+MusicRepoAndPlayer/.vs/MusicRepoAndPlayer/v15/.suo
+*.ide
+*.ide
