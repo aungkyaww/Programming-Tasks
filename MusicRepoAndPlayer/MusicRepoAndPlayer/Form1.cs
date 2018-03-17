@@ -48,10 +48,11 @@ namespace MusicRepoAndPlayer
             Windows = 8
         }
 
-        private static int _ThreadDelay;
+        private static int _ThreadDelay = 1000;
         public static Task CopyRunTask = new Task(() => CopyRun());
         public static CancellationToken cancelToken;
         public static CancellationTokenSource cancelTokenSource;
+        private bool LQDone = false;
 
         protected override void WndProc(ref Message m)
         {
@@ -71,13 +72,17 @@ namespace MusicRepoAndPlayer
                     //If Ctrl + Alt + V Pressed
                     if (CheckIfActiveProcess("Discord"))
                     {
+                      
                         if (CopyRunTask.Status != TaskStatus.Running)
                         {
-                            CopyRunTask.Start();
-                            if (chkLq.Checked)
+                            
+                            if (chkLq.Checked && !LQDone)
                             {
                                 SendKeys.SendWait("!lq {enter}");
+                                LQDone = true;
+
                             }
+                            CopyRunTask.Start();
                             if (chkShuffle.Checked)
                             {
                                 SendKeys.SendWait("!shuffle");
@@ -108,8 +113,8 @@ namespace MusicRepoAndPlayer
         private int _hotkey = (int)Keys.V; //0x56
 
         private bool _UpdateSearch = false;
-        private Music _Music;
-        private string _SelectedPlaylist = null;
+        private static Music _Music;
+        private static string _SelectedPlaylist = null;
 
         private void PopulateTreeView(Music music)
         {
@@ -346,9 +351,11 @@ namespace MusicRepoAndPlayer
 
         public static void CopyRun()
         {
-            for (int i = 0; i < 100; i++)
+
+            List<Track> tracks =  _Music.GetPlaylist(_SelectedPlaylist);
+            foreach (Track track in tracks)
             {
-                if (cancelToken.IsCancellationRequested)
+if (cancelToken.IsCancellationRequested)
                 {
                     break;
                 }
@@ -361,11 +368,13 @@ namespace MusicRepoAndPlayer
                     }
 
                     Thread.Sleep(_ThreadDelay);
-                    SendKeys.SendWait("Some task: " + i + "{enter}");
-
-                    Console.WriteLine("Running: " + i);
+                    SendKeys.SendWait("!p " + track.SearchString + "{enter}");
+                    Console.WriteLine("Adding " + track.TrackName);
                 }
             }
+           
+                
+            
         }
 
         private void lblTrackInfoLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

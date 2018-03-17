@@ -15,9 +15,10 @@ namespace MusicRepoAndPlayer
             Fail = 2,
             Overwrite = 3
         }
+
     class Music
     {
-        
+         
         public Dictionary<string,Playlist> Playlists { get; set; }
 
         public Music()
@@ -122,6 +123,19 @@ namespace MusicRepoAndPlayer
 
             }
         }
+
+        public List<Track> GetPlaylist(string playlistName)
+        {
+            Playlist playlist = Playlists[playlistName];
+            List<Track> tracks = new List<Track>();
+            foreach (KeyValuePair<string, Track> item in playlist.Tracks)
+            {
+                tracks.Add(item.Value);
+            }
+            return tracks;
+        }
+
+        
 
     }
 
