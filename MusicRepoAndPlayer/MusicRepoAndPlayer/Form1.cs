@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.Windows.Forms.TreeNodeExtended;
 using System.Diagnostics;
+using System.Threading;
 
 namespace MusicRepoAndPlayer
 {
@@ -31,6 +32,14 @@ namespace MusicRepoAndPlayer
         [DllImport("user32.dll")]
         private static extern int GetWindowThreadProcessId(IntPtr handle, out int processId);
 
+        [DllImport("user32.dll")]
+        private static extern bool GetCaretPos(out Point point);
+
+        [DllImport("user32.dll")]
+        private static extern uint GetCaretBlinkTime();
+
+
+
         public enum KeyModifier
         {
             Alt = 1,
@@ -39,30 +48,59 @@ namespace MusicRepoAndPlayer
             Windows = 8
         }
 
+        private static int _ThreadDelay;
+        public static Task CopyRunTask = new Task(() => CopyRun());
+        public static CancellationToken cancelToken;
+        public static CancellationTokenSource cancelTokenSource;
+
         protected override void WndProc(ref Message m)
         {
             base.WndProc(ref m);
 
-            if (m.Msg == 0x0312)
+            if (m.Msg == 0x0312) //0x0312 = WM_HOTKEY
             {
-                if (m.Msg == 0x01)
+                int key = (int)m.LParam >> 16 & 0xFFFF;
+                int modifier = (int)m.LParam & 0xFFFF;
+                CancellationTokenSource ts = new CancellationTokenSource();
+                CancellationToken ct = ts.Token;
+                cancelTokenSource = ts;
+                cancelToken = ct;
+                if (key == (int)Keys.V && modifier == (int)(KeyModifier.Alt | KeyModifier.Control))
                 {
-                    
+
+                    //If Ctrl + Alt + V Pressed
+                    if (CheckIfActiveProcess("Discord"))
+                    {
+                        if (CopyRunTask.Status != TaskStatus.Running)
+                        {
+                            CopyRunTask.Start();
+                            if (chkLq.Checked)
+                            {
+                                SendKeys.SendWait("!lq {enter}");
+                            }
+                            if (chkShuffle.Checked)
+                            {
+                                SendKeys.SendWait("!shuffle");
+                            }
+                        }
+
+                        //task.Wait();
+                    }
                 }
+
             }
         }
 
-        private bool CheckProcess(string processName, bool checkCusor = false)
+        public static bool CheckIfActiveProcess(string processName, bool checkCusor = false)
         {
-            IntPtr activatedWindowPtr = GetForegroundWindow();
-            if (activatedWindowPtr == IntPtr.Zero)
+            if (GetForegroundWindow() == IntPtr.Zero)
             {
                 return false;
             }
-            var procId = Process.GetCurrentProcess().Id;
-            GetWindowThreadProcessId(activatedWindowPtr, out int activeProcId);
+            GetWindowThreadProcessId(GetForegroundWindow(), out int procID);
 
-            return activeProcId == procId;
+            // return activeProcId == procId;
+            return Process.GetProcessById(procID).ProcessName == processName;
 
         }
 
@@ -75,7 +113,6 @@ namespace MusicRepoAndPlayer
 
         private void PopulateTreeView(Music music)
         {
-
             tvPlaylists.Nodes.Clear();
             foreach (KeyValuePair<string, Playlist> playlist in music.Playlists)
             {
@@ -147,8 +184,7 @@ namespace MusicRepoAndPlayer
             {
                 _Music = new Music();
             }
-            int mods = (int)(KeyModifier.Alt | KeyModifier.Control);
-            bool test = RegisterHotKey(this.Handle, _hotkeyID, (int)(KeyModifier.Alt | KeyModifier.Control | KeyModifier.Shift | KeyModifier.Windows), _hotkey);
+            bool test = RegisterHotKey(this.Handle, _hotkeyID, (int)(KeyModifier.Alt | KeyModifier.Control), _hotkey);
 
         }
 
@@ -198,12 +234,23 @@ namespace MusicRepoAndPlayer
 
                     Track track = new Track(trackName, link, searchTerm);
 
-                    if (_Music.AddTrack(track, node.Text, true))
+                    TrackOptions trackOptions = _Music.AddTrack(track, node.Text, true);
+                    if (trackOptions == TrackOptions.Overwrite)
                     {
                         tvPlaylists.BeginUpdate();
                         node.Nodes.Remove(node.Nodes.CaseSensitiveFind(track.TrackName));
                         node.Nodes.Add(track.TrackName);
                         tvPlaylists.EndUpdate();
+                        txtSearchableName.Clear();
+                        txtTrackName.Clear();
+                        txtLinkToTrack.Clear();
+                    }
+                    else if (trackOptions == TrackOptions.Success)
+                    {
+                        node.Nodes.Add(track.TrackName);
+                        txtSearchableName.Clear();
+                        txtTrackName.Clear();
+                        txtLinkToTrack.Clear();
                     }
 
                 }
@@ -257,12 +304,15 @@ namespace MusicRepoAndPlayer
         {
             if (_SelectedPlaylist != null)
             {
-                DialogResult result = MessageBox.Show("Are you sure you want to delete the " + _SelectedPlaylist + " Playlist?", "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                DialogResult result = MessageBox.Show("Are you sure you want to delete the " + _SelectedPlaylist + " Playlist? \n This will delete all the tracks as well!", "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
                 if (result == DialogResult.OK)
                 {
+                    _Music.DeletePlaylist(_SelectedPlaylist);
                     TreeNode node = tvPlaylists.SelectedNode.Parent == null ? tvPlaylists.SelectedNode : RecursiveFindRootNode(tvPlaylists.SelectedNode);
                     node.Remove();
+
                 }
+
             }
         }
 
@@ -294,9 +344,38 @@ namespace MusicRepoAndPlayer
             }
         }
 
+        public static void CopyRun()
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                if (cancelToken.IsCancellationRequested)
+                {
+                    break;
+                }
+                else
+                {
+
+                    if (!CheckIfActiveProcess("Discord"))
+                    {
+                        cancelTokenSource.Cancel();
+                    }
+
+                    Thread.Sleep(_ThreadDelay);
+                    SendKeys.SendWait("Some task: " + i + "{enter}");
+
+                    Console.WriteLine("Running: " + i);
+                }
+            }
+        }
+
         private void lblTrackInfoLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             webBrowser1.Navigate(lblTrackInfoLink.Text);
+        }
+
+        private void numThreadDelay_ValueChanged(object sender, EventArgs e)
+        {
+            _ThreadDelay = (int)numThreadDelay.Value;
         }
     }
 

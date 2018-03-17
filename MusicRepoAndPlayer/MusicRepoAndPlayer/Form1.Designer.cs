@@ -42,16 +42,21 @@
             this.lblPlaylist = new System.Windows.Forms.Label();
             this.lblDisplayPlaylist = new System.Windows.Forms.Label();
             this.gpbxTrackInfo = new System.Windows.Forms.GroupBox();
-            this.btnDeletePlaylist = new System.Windows.Forms.Button();
-            this.lblTrackInfoTrackName = new System.Windows.Forms.Label();
-            this.lblTrackInfoLink = new System.Windows.Forms.LinkLabel();
-            this.lblTrackInfoSearchableName = new System.Windows.Forms.Label();
-            this.lblTrackSelected = new System.Windows.Forms.Label();
-            this.lblTrackSelectedLink = new System.Windows.Forms.Label();
             this.lblTrackSelectedSearchable = new System.Windows.Forms.Label();
+            this.lblTrackSelectedLink = new System.Windows.Forms.Label();
+            this.lblTrackSelected = new System.Windows.Forms.Label();
+            this.lblTrackInfoSearchableName = new System.Windows.Forms.Label();
+            this.lblTrackInfoLink = new System.Windows.Forms.LinkLabel();
+            this.lblTrackInfoTrackName = new System.Windows.Forms.Label();
+            this.btnDeletePlaylist = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.chkLq = new System.Windows.Forms.CheckBox();
+            this.chkShuffle = new System.Windows.Forms.CheckBox();
+            this.lblThreadDelay = new System.Windows.Forms.Label();
+            this.numThreadDelay = new System.Windows.Forms.NumericUpDown();
             this.gpbxTrackInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numThreadDelay)).BeginInit();
             this.SuspendLayout();
             // 
             // tvPlaylists
@@ -187,25 +192,42 @@
             this.gpbxTrackInfo.TabStop = false;
             this.gpbxTrackInfo.Text = "Track Information";
             // 
-            // btnDeletePlaylist
+            // lblTrackSelectedSearchable
             // 
-            this.btnDeletePlaylist.Location = new System.Drawing.Point(232, 64);
-            this.btnDeletePlaylist.Name = "btnDeletePlaylist";
-            this.btnDeletePlaylist.Size = new System.Drawing.Size(143, 46);
-            this.btnDeletePlaylist.TabIndex = 25;
-            this.btnDeletePlaylist.Text = "Delete Selected Playlist";
-            this.btnDeletePlaylist.UseVisualStyleBackColor = true;
-            this.btnDeletePlaylist.Click += new System.EventHandler(this.btnDeletePlaylist_Click);
+            this.lblTrackSelectedSearchable.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTrackSelectedSearchable.Location = new System.Drawing.Point(0, 89);
+            this.lblTrackSelectedSearchable.Name = "lblTrackSelectedSearchable";
+            this.lblTrackSelectedSearchable.Size = new System.Drawing.Size(110, 20);
+            this.lblTrackSelectedSearchable.TabIndex = 23;
+            this.lblTrackSelectedSearchable.Text = "Searchable:";
             // 
-            // lblTrackInfoTrackName
+            // lblTrackSelectedLink
             // 
-            this.lblTrackInfoTrackName.AutoSize = true;
-            this.lblTrackInfoTrackName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTrackInfoTrackName.Location = new System.Drawing.Point(116, 27);
-            this.lblTrackInfoTrackName.Name = "lblTrackInfoTrackName";
-            this.lblTrackInfoTrackName.Size = new System.Drawing.Size(74, 15);
-            this.lblTrackInfoTrackName.TabIndex = 18;
-            this.lblTrackInfoTrackName.Text = "Track Name";
+            this.lblTrackSelectedLink.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTrackSelectedLink.Location = new System.Drawing.Point(0, 58);
+            this.lblTrackSelectedLink.Name = "lblTrackSelectedLink";
+            this.lblTrackSelectedLink.Size = new System.Drawing.Size(110, 20);
+            this.lblTrackSelectedLink.TabIndex = 22;
+            this.lblTrackSelectedLink.Text = "Track Link:";
+            // 
+            // lblTrackSelected
+            // 
+            this.lblTrackSelected.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTrackSelected.Location = new System.Drawing.Point(0, 25);
+            this.lblTrackSelected.Name = "lblTrackSelected";
+            this.lblTrackSelected.Size = new System.Drawing.Size(110, 20);
+            this.lblTrackSelected.TabIndex = 21;
+            this.lblTrackSelected.Text = "Track Name:";
+            // 
+            // lblTrackInfoSearchableName
+            // 
+            this.lblTrackInfoSearchableName.AutoSize = true;
+            this.lblTrackInfoSearchableName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTrackInfoSearchableName.Location = new System.Drawing.Point(116, 94);
+            this.lblTrackInfoSearchableName.Name = "lblTrackInfoSearchableName";
+            this.lblTrackInfoSearchableName.Size = new System.Drawing.Size(70, 15);
+            this.lblTrackInfoSearchableName.TabIndex = 20;
+            this.lblTrackInfoSearchableName.Text = "Searchable";
             // 
             // lblTrackInfoLink
             // 
@@ -221,42 +243,25 @@
             this.lblTrackInfoLink.VisitedLinkColor = System.Drawing.Color.Blue;
             this.lblTrackInfoLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblTrackInfoLink_LinkClicked);
             // 
-            // lblTrackInfoSearchableName
+            // lblTrackInfoTrackName
             // 
-            this.lblTrackInfoSearchableName.AutoSize = true;
-            this.lblTrackInfoSearchableName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTrackInfoSearchableName.Location = new System.Drawing.Point(116, 94);
-            this.lblTrackInfoSearchableName.Name = "lblTrackInfoSearchableName";
-            this.lblTrackInfoSearchableName.Size = new System.Drawing.Size(70, 15);
-            this.lblTrackInfoSearchableName.TabIndex = 20;
-            this.lblTrackInfoSearchableName.Text = "Searchable";
+            this.lblTrackInfoTrackName.AutoSize = true;
+            this.lblTrackInfoTrackName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTrackInfoTrackName.Location = new System.Drawing.Point(116, 27);
+            this.lblTrackInfoTrackName.Name = "lblTrackInfoTrackName";
+            this.lblTrackInfoTrackName.Size = new System.Drawing.Size(74, 15);
+            this.lblTrackInfoTrackName.TabIndex = 18;
+            this.lblTrackInfoTrackName.Text = "Track Name";
             // 
-            // lblTrackSelected
+            // btnDeletePlaylist
             // 
-            this.lblTrackSelected.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTrackSelected.Location = new System.Drawing.Point(0, 25);
-            this.lblTrackSelected.Name = "lblTrackSelected";
-            this.lblTrackSelected.Size = new System.Drawing.Size(110, 20);
-            this.lblTrackSelected.TabIndex = 21;
-            this.lblTrackSelected.Text = "Track Name:";
-            // 
-            // lblTrackSelectedLink
-            // 
-            this.lblTrackSelectedLink.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTrackSelectedLink.Location = new System.Drawing.Point(0, 58);
-            this.lblTrackSelectedLink.Name = "lblTrackSelectedLink";
-            this.lblTrackSelectedLink.Size = new System.Drawing.Size(110, 20);
-            this.lblTrackSelectedLink.TabIndex = 22;
-            this.lblTrackSelectedLink.Text = "Track Link:";
-            // 
-            // lblTrackSelectedSearchable
-            // 
-            this.lblTrackSelectedSearchable.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTrackSelectedSearchable.Location = new System.Drawing.Point(0, 89);
-            this.lblTrackSelectedSearchable.Name = "lblTrackSelectedSearchable";
-            this.lblTrackSelectedSearchable.Size = new System.Drawing.Size(110, 20);
-            this.lblTrackSelectedSearchable.TabIndex = 23;
-            this.lblTrackSelectedSearchable.Text = "Searchable:";
+            this.btnDeletePlaylist.Location = new System.Drawing.Point(232, 64);
+            this.btnDeletePlaylist.Name = "btnDeletePlaylist";
+            this.btnDeletePlaylist.Size = new System.Drawing.Size(143, 46);
+            this.btnDeletePlaylist.TabIndex = 25;
+            this.btnDeletePlaylist.Text = "Delete Selected Playlist";
+            this.btnDeletePlaylist.UseVisualStyleBackColor = true;
+            this.btnDeletePlaylist.Click += new System.EventHandler(this.btnDeletePlaylist_Click);
             // 
             // label1
             // 
@@ -276,11 +281,67 @@
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 27;
             // 
+            // chkLq
+            // 
+            this.chkLq.AutoSize = true;
+            this.chkLq.Location = new System.Drawing.Point(510, 37);
+            this.chkLq.Name = "chkLq";
+            this.chkLq.Size = new System.Drawing.Size(59, 17);
+            this.chkLq.TabIndex = 29;
+            this.chkLq.Text = "Add !lq";
+            this.chkLq.UseVisualStyleBackColor = true;
+            // 
+            // chkShuffle
+            // 
+            this.chkShuffle.AutoSize = true;
+            this.chkShuffle.Location = new System.Drawing.Point(422, 37);
+            this.chkShuffle.Name = "chkShuffle";
+            this.chkShuffle.Size = new System.Drawing.Size(82, 17);
+            this.chkShuffle.TabIndex = 30;
+            this.chkShuffle.Text = "Add !shuffle";
+            this.chkShuffle.UseVisualStyleBackColor = true;
+            // 
+            // lblThreadDelay
+            // 
+            this.lblThreadDelay.AutoSize = true;
+            this.lblThreadDelay.Location = new System.Drawing.Point(381, 17);
+            this.lblThreadDelay.Name = "lblThreadDelay";
+            this.lblThreadDelay.Size = new System.Drawing.Size(101, 13);
+            this.lblThreadDelay.TabIndex = 31;
+            this.lblThreadDelay.Text = "Change paste delay";
+            // 
+            // numThreadDelay
+            // 
+            this.numThreadDelay.Location = new System.Drawing.Point(488, 15);
+            this.numThreadDelay.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.numThreadDelay.Minimum = new decimal(new int[] {
+            200,
+            0,
+            0,
+            0});
+            this.numThreadDelay.Name = "numThreadDelay";
+            this.numThreadDelay.Size = new System.Drawing.Size(97, 20);
+            this.numThreadDelay.TabIndex = 32;
+            this.numThreadDelay.Value = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.numThreadDelay.ValueChanged += new System.EventHandler(this.numThreadDelay_ValueChanged);
+            // 
             // frmMusicPlayer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1193, 694);
+            this.Controls.Add(this.numThreadDelay);
+            this.Controls.Add(this.lblThreadDelay);
+            this.Controls.Add(this.chkShuffle);
+            this.Controls.Add(this.chkLq);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnDeletePlaylist);
@@ -304,6 +365,7 @@
             this.Load += new System.EventHandler(this.frmMusicPlayer_Load);
             this.gpbxTrackInfo.ResumeLayout(false);
             this.gpbxTrackInfo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numThreadDelay)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -334,6 +396,10 @@
         private System.Windows.Forms.Label lblTrackSelected;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.CheckBox chkLq;
+        private System.Windows.Forms.CheckBox chkShuffle;
+        private System.Windows.Forms.Label lblThreadDelay;
+        private System.Windows.Forms.NumericUpDown numThreadDelay;
     }
 }
 

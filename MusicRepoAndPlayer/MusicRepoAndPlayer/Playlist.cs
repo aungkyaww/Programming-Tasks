@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace MusicRepoAndPlayer
 {
+        public enum TrackOptions {
+            Success = 1,
+            Fail = 2,
+            Overwrite = 3
+        }
     class Music
     {
+        
         public Dictionary<string,Playlist> Playlists { get; set; }
 
         public Music()
@@ -38,25 +44,29 @@ namespace MusicRepoAndPlayer
             return doOverwrite;
         }
 
-        public bool AddTrack(Track track, string playlistName, bool displayDialog = false)
+        public TrackOptions AddTrack(Track track, string playlistName, bool displayDialog = false)
         {
          
             bool writeTrack = true;
+            bool dialogPassed = false;
+            
             if (Playlists[playlistName].Tracks.ContainsKey(track.TrackName))
             {
 
                 if (displayDialog)
                 {
                     DialogResult result = MessageBox.Show("Are you sure you want to overwrite " + track.TrackName + " in the " + playlistName + " playlist?", "This track already exists!", MessageBoxButtons.OKCancel);
-                    writeTrack = result == DialogResult.OK ? true : false;
+                    writeTrack = result == DialogResult.OK;
+                    dialogPassed = result == DialogResult.OK;
                 }
 
             }
             if (writeTrack)
             {
-                Playlists[playlistName].Tracks[track.TrackName] = track; 
+                Playlists[playlistName].Tracks[track.TrackName] = track;
+                return dialogPassed ? TrackOptions.Overwrite : TrackOptions.Success;
             }
-            return writeTrack;
+            return TrackOptions.Fail;
         }
 
         public Track FindTrack(string trackName, string playlistName)
