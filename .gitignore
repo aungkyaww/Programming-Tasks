@@ -12,3 +12,4 @@ MusicRepoAndPlayer/.vs/MusicRepoAndPlayer/v15/Server/sqlite3/storage.ide
 MusicRepoAndPlayer/MusicRepoAndPlayer/obj/Release/MusicRepoAndPlayer.pdb
 *.pdb
 *.config
+*.xml
