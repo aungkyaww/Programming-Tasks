@@ -1,0 +1,7 @@
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR Finding A Motif in DNA 05\PR Finding A Motif in DNA 05\bin\Debug\PR DNA 01.exe.config
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR Finding A Motif in DNA 05\PR Finding A Motif in DNA 05\bin\Debug\PR DNA 01.exe
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR Finding A Motif in DNA 05\PR Finding A Motif in DNA 05\bin\Debug\PR DNA 01.pdb
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR Finding A Motif in DNA 05\PR Finding A Motif in DNA 05\obj\Debug\PR Finding A Motif in DNA 05.csprojResolveAssemblyReference.cache
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR Finding A Motif in DNA 05\PR Finding A Motif in DNA 05\obj\Debug\PR Finding A Motif in DNA 05.csproj.CoreCompileInputs.cache
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR Finding A Motif in DNA 05\PR Finding A Motif in DNA 05\obj\Debug\PR DNA 01.exe
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR Finding A Motif in DNA 05\PR Finding A Motif in DNA 05\obj\Debug\PR DNA 01.pdb
