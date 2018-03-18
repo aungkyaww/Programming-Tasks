@@ -14,12 +14,12 @@ namespace Mendel_s_First_Law
        //From http://thagomizer.com/blog/2014/11/19/approaching-rosalind-problems.html
         public static double CalculateProbability(int dominant, int heterozygous ,int recessive)
         {
-            int total = dominant + heterozygous + recessive;
-            double recess_recess = (recessive / total) * (recessive - 1 / total - 1);
-            double hetero_hetero = (heterozygous / total) * (heterozygous - 1 / total - 1) * 0.25;
-            double hetero_recess = (heterozygous / total) * (recessive - 1 / total - 1) * 0.5;
+            double total = dominant + heterozygous + recessive;
+            double recess_recess = (recessive / total) * ((recessive - 1) / (total - 1));
+            double hetero_hetero = (heterozygous / total) * ((heterozygous - 1) / ( total - 1));
+            double hetero_recess = ((heterozygous / total) * (recessive / (total - 1))) + ((recessive / total) *  (heterozygous / (total - 1)));
 
-            return 1 - hetero_recess - hetero_recess - hetero_hetero;
+            return 1 - (hetero_recess * 0.5) - (hetero_hetero * 0.25) - recess_recess;
 
         }
 

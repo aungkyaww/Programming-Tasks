@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Computing GC Content", "Computing GC Content\Computing GC Content.csproj", "{712894F8-760E-4506-96CE-9654C10FCE58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{712894F8-760E-4506-96CE-9654C10FCE58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712894F8-760E-4506-96CE-9654C10FCE58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712894F8-760E-4506-96CE-9654C10FCE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712894F8-760E-4506-96CE-9654C10FCE58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D69D46D8-912A-4195-864B-251B1C4A00AE}
+	EndGlobalSection
+EndGlobal
