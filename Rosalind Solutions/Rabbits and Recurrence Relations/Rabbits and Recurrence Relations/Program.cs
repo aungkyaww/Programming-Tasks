@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Diagnostics;
+using System.Threading;
 
 namespace Rabbits_and_Recurrence_Relations
 {
@@ -11,7 +13,6 @@ namespace Rabbits_and_Recurrence_Relations
 
     class Program
     {
-
 
         //Recursive solution
         static long CalculateRecurrence(int months, int sizeOfLitter, long adult = 0, long litter = 1, int currentMonth = 1)
@@ -32,7 +33,7 @@ namespace Rabbits_and_Recurrence_Relations
             }
         }
 
-        //Interative/Dynamic solution (Should prevent any out of memory exceptions arising from a recursive solution
+        //Interative/Dynamic solution - about 4x faster than the recursive solution above
         static long CalculateRecurrenceDynamic(int months, int sizeOfLitter)
         {
             //long totalRabbits = 0;
@@ -66,9 +67,10 @@ namespace Rabbits_and_Recurrence_Relations
             months = int.Parse(lines[0].Substring(0, lines[0].IndexOf(' ')));
             litter = int.Parse(lines[0].Substring(lines[0].IndexOf(' ')));
 
-            Console.WriteLine(CalculateRecurrence(months, litter, 0));
-            Console.WriteLine(CalculateRecurrence(30, 3));
-            Console.WriteLine(CalculateRecurrenceDynamic(30, 3));
+            console.writeline(calculaterecurrence(months, litter, 0));
+            console.writeline(calculaterecurrence(30, 3));
+            console.writeline(calculaterecurrencedynamic(30, 3));
+
             Console.ReadLine(); 
         }
     }
