@@ -1,0 +1,9 @@
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Locating Restriction Sites\Locating Restriction Sites\bin\Debug\Utils.dll
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Locating Restriction Sites\Locating Restriction Sites\bin\Debug\Utils.pdb
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Locating Restriction Sites\Locating Restriction Sites\obj\Debug\Locating Restriction Sites.csproj.CoreCompileInputs.cache
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Locating Restriction Sites\Locating Restriction Sites\bin\Debug\Locating Restriction Sites.exe.config
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Locating Restriction Sites\Locating Restriction Sites\bin\Debug\Locating Restriction Sites.exe
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Locating Restriction Sites\Locating Restriction Sites\bin\Debug\Locating Restriction Sites.pdb
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Locating Restriction Sites\Locating Restriction Sites\obj\Debug\Locating Restriction Sites.csprojResolveAssemblyReference.cache
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Locating Restriction Sites\Locating Restriction Sites\obj\Debug\Locating Restriction Sites.exe
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Locating Restriction Sites\Locating Restriction Sites\obj\Debug\Locating Restriction Sites.pdb

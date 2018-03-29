@@ -1,21 +1,15 @@
 
-MusicRepoAndPlayer/.vs/MusicRepoAndPlayer/v15/.suo
-MusicRepoAndPlayer/.vs/MusicRepoAndPlayer/v15/.suo
-MusicRepoAndPlayer/.vs/MusicRepoAndPlayer/v15/Server/sqlite3/storage.ide
-MusicRepoAndPlayer/.vs/MusicRepoAndPlayer/v15/.suo
 *.ide
-MusicRepoAndPlayer/.vs/MusicRepoAndPlayer/v15/.suo
-MusicRepoAndPlayer/.vs/MusicRepoAndPlayer/v15/Server/sqlite3/storage.ide
 *.ide
 *.ide-shm
 *.ide-wal
-MusicRepoAndPlayer/MusicRepoAndPlayer/obj/Release/MusicRepoAndPlayer.pdb
 *.pdb
 *.config
 *.xml
-MusicRepoAndPlayer/.vs/MusicRepoAndPlayer/v15/.suo
 *.ide
 *.ide
-MusicRepoAndPlayer/MusicRepoAndPlayer/obj/Debug/MusicRepoAndPlayer.pdb
-MusicRepoAndPlayer/MusicRepoAndPlayer/obj/Debug/MusicRepoAndPlayer.pdb
-MusicRepoAndPlayer/MusicRepoAndPlayer/obj/Release/DesignTimeResolveAssemblyReferences.cache
+.pdb
+*.lock
+*.cache
+*.suo
+

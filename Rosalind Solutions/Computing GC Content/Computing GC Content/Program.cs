@@ -10,11 +10,11 @@ namespace Computing_GC_Content
 
     class Program
     {
-        class FASTA
+        public class FASTA
         {
             public string ID { get; set; }
             public string DNA { get; set; }
-            private double _GCContent;
+            public double _GCContent;
             public double GCContent { get { return _GCContent; } set { _GCContent = value; } }
         }
 
@@ -33,6 +33,20 @@ namespace Computing_GC_Content
             return (double)totalGC / (double)dnaChars.Length;
         }
 
+        public static List<FASTA> DecodeFasta(string data)
+        {
+            List<FASTA> fastaList = new List<FASTA>();
+            string[] splitData = data.Split('>');
+            foreach (string item in splitData)
+            {
+                FASTA fasta = new FASTA();
+                string[] temp = item.Split('\n');
+                fasta.ID = temp[0];
+            }
+            return fastaList;
+        }
+
+
         static void Main(string[] args)
         {
             string strPath = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
@@ -42,6 +56,14 @@ namespace Computing_GC_Content
             {
                 lines = File.ReadAllLines(file);
             }
+            string data = "";
+            foreach (var line in lines)
+            {
+                 data += line;
+            }
+
+            DecodeFasta(data);
+
             FASTA dna = new FASTA();
             List<FASTA> fastaList = new List<FASTA>();
             foreach (string str in lines)

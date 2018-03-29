@@ -1,0 +1,7 @@
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Enumerating Gene Orders\Enumerating Gene Orders\bin\Debug\Enumerating_Gene_Orders.exe.config
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Enumerating Gene Orders\Enumerating Gene Orders\bin\Debug\Enumerating_Gene_Orders.exe
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Enumerating Gene Orders\Enumerating Gene Orders\bin\Debug\Enumerating_Gene_Orders.pdb
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Enumerating Gene Orders\Enumerating Gene Orders\obj\Debug\Enumerating Gene Orders.csprojResolveAssemblyReference.cache
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Enumerating Gene Orders\Enumerating Gene Orders\obj\Debug\Enumerating Gene Orders.csproj.CoreCompileInputs.cache
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Enumerating Gene Orders\Enumerating Gene Orders\obj\Debug\Enumerating_Gene_Orders.exe
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Enumerating Gene Orders\Enumerating Gene Orders\obj\Debug\Enumerating_Gene_Orders.pdb

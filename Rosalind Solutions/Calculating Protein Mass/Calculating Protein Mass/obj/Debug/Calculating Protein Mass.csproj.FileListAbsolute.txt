@@ -1,0 +1,9 @@
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Calculating Protein Mass\Calculating Protein Mass\bin\Debug\PR DNA 01.exe.config
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Calculating Protein Mass\Calculating Protein Mass\bin\Debug\PR DNA 01.exe
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Calculating Protein Mass\Calculating Protein Mass\bin\Debug\PR DNA 01.pdb
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Calculating Protein Mass\Calculating Protein Mass\bin\Debug\Utils.dll
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Calculating Protein Mass\Calculating Protein Mass\bin\Debug\Utils.pdb
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Calculating Protein Mass\Calculating Protein Mass\obj\Debug\Calculating Protein Mass.csprojResolveAssemblyReference.cache
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Calculating Protein Mass\Calculating Protein Mass\obj\Debug\Calculating Protein Mass.csproj.CoreCompileInputs.cache
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Calculating Protein Mass\Calculating Protein Mass\obj\Debug\PR DNA 01.exe
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Calculating Protein Mass\Calculating Protein Mass\obj\Debug\PR DNA 01.pdb
