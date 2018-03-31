@@ -12,5 +12,5 @@
 *.lock
 *.cache
 *.suo
-/MusicRepoPlayer/*
+/MusicRepoAndPlayer/*
 
