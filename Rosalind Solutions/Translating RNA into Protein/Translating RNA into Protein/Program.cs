@@ -24,14 +24,14 @@ namespace Translating_RNA_into_Protein
             {"GGG", 'G'}
         };
 
-        public static string ComputeProtein(string dna)
+        public static string ComputeProtein(string rna)
         {
-            char[] dnaChars = dna.ToCharArray();
+            char[] rnaChars = rna.ToCharArray();
             List<char> protein = new List<char>();
 
-            for (int i = 0; i < dnaChars.Length; i += 3)
+            for (int i = 0; i < rnaChars.Length; i += 3)
             {
-                string key = new string(dnaChars, i, 3);
+                string key = new string(rnaChars, i, 3);
                 char aminoAcid = codonTable[key];
                 if (aminoAcid == '.')
                 {

@@ -4,10 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
+
 namespace Rosalind.Utils
 {
     public static class Constants
     {
+        //. = STOP, @ = START
         public static Dictionary<string, char> CodonTable = new Dictionary<string, char>() {
             {"UUU", 'F'}, {"CUU", 'L'}, {"AUU", 'I'}, {"GUU", 'V'}, {"UUC", 'F'}, {"CUC", 'L'}, {"AUC", 'I'},
             {"GUC", 'V'}, {"UUA", 'L'}, {"CUA", 'L'}, {"AUA", 'I'}, {"GUA", 'V'}, {"UUG", 'L'}, {"CUG", 'L'},
@@ -130,6 +134,46 @@ namespace Rosalind.Utils
             return match;
         }
 
+        public static string ReverseCompliment(string dnaString)
+        {
+            char[] chars = dnaString.ToCharArray();
+
+            for (int i = 0; i < chars.Length; i++)
+            {
+                switch (chars[i])
+                {
+                    case 'A': chars[i] = 'T'; break;
+                    case 'C': chars[i] = 'G'; break;
+                    case 'T': chars[i] = 'A'; break;
+                    case 'G': chars[i] = 'C'; break;
+                }
+            }
+            chars = chars.Reverse().ToArray();
+            return new string(chars);
+        }
+
+        public static string ComputeProtein(string rna)
+        {
+            char[] rnaChars = rna.ToCharArray();
+            List<char> protein = new List<char>();
+
+            for (int i = 0; i < rnaChars.Length; i += 3)
+            {
+                string key = new string(rnaChars, i, 3);
+                char aminoAcid = Constants.CodonTable[key];
+                if (aminoAcid == '.')
+                {
+                    break;
+                }
+                else
+                {
+                    protein.Add(aminoAcid);
+                }
+            }
+            return new string(protein.ToArray());
+        }
+
     }
+
 
 }
