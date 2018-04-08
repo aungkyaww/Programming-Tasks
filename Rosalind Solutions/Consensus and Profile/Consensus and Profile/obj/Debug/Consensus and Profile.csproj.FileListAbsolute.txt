@@ -1,9 +1,0 @@
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Consensus and Profile\Consensus and Profile\obj\Debug\Consensus and Profile.csprojResolveAssemblyReference.cache
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Consensus and Profile\Consensus and Profile\obj\Debug\Consensus and Profile.csproj.CoreCompileInputs.cache
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Consensus and Profile\Consensus and Profile\bin\Debug\Consensus and Profile.exe.config
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Consensus and Profile\Consensus and Profile\bin\Debug\Consensus and Profile.exe
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Consensus and Profile\Consensus and Profile\bin\Debug\Consensus and Profile.pdb
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Consensus and Profile\Consensus and Profile\obj\Debug\Consensus and Profile.exe
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Consensus and Profile\Consensus and Profile\obj\Debug\Consensus and Profile.pdb
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Consensus and Profile\Consensus and Profile\bin\Debug\Rosalind.Utils.dll
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Consensus and Profile\Consensus and Profile\bin\Debug\Rosalind.Utils.pdb

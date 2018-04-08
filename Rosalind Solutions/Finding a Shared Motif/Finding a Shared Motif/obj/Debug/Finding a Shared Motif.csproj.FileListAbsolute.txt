@@ -1,9 +1,0 @@
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Finding a Shared Motif\Finding a Shared Motif\obj\Debug\Finding a Shared Motif.csprojResolveAssemblyReference.cache
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Finding a Shared Motif\Finding a Shared Motif\obj\Debug\Finding a Shared Motif.csproj.CoreCompileInputs.cache
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Finding a Shared Motif\Finding a Shared Motif\bin\Debug\Finding_a_Shared_Motif.exe.config
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Finding a Shared Motif\Finding a Shared Motif\bin\Debug\Finding_a_Shared_Motif.exe
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Finding a Shared Motif\Finding a Shared Motif\bin\Debug\Finding_a_Shared_Motif.pdb
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Finding a Shared Motif\Finding a Shared Motif\bin\Debug\Utils.dll
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Finding a Shared Motif\Finding a Shared Motif\bin\Debug\Utils.pdb
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Finding a Shared Motif\Finding a Shared Motif\obj\Debug\Finding_a_Shared_Motif.exe
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Finding a Shared Motif\Finding a Shared Motif\obj\Debug\Finding_a_Shared_Motif.pdb

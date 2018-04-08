@@ -1,9 +1,0 @@
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Open Reading Frames\Open Reading Frames\bin\Debug\Open Reading Frames.exe.config
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Open Reading Frames\Open Reading Frames\bin\Debug\Open Reading Frames.exe
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Open Reading Frames\Open Reading Frames\bin\Debug\Open Reading Frames.pdb
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Open Reading Frames\Open Reading Frames\obj\Debug\Open Reading Frames.csprojResolveAssemblyReference.cache
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Open Reading Frames\Open Reading Frames\obj\Debug\Open Reading Frames.csproj.CoreCompileInputs.cache
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Open Reading Frames\Open Reading Frames\obj\Debug\Open Reading Frames.exe
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Open Reading Frames\Open Reading Frames\obj\Debug\Open Reading Frames.pdb
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Open Reading Frames\Open Reading Frames\bin\Debug\Rosalind.Utils.dll
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Open Reading Frames\Open Reading Frames\bin\Debug\Rosalind.Utils.pdb

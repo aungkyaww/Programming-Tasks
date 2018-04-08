@@ -1,9 +1,0 @@
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Inferring mRNA from Protein\Inferring mRNA from Protein\bin\Debug\Inferring mRNA from Protein.exe.config
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Inferring mRNA from Protein\Inferring mRNA from Protein\bin\Debug\Inferring mRNA from Protein.exe
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Inferring mRNA from Protein\Inferring mRNA from Protein\bin\Debug\Inferring mRNA from Protein.pdb
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Inferring mRNA from Protein\Inferring mRNA from Protein\bin\Debug\Rosalind.Utils.dll
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Inferring mRNA from Protein\Inferring mRNA from Protein\bin\Debug\Rosalind.Utils.pdb
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Inferring mRNA from Protein\Inferring mRNA from Protein\obj\Debug\Inferring mRNA from Protein.csprojResolveAssemblyReference.cache
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Inferring mRNA from Protein\Inferring mRNA from Protein\obj\Debug\Inferring mRNA from Protein.csproj.CoreCompileInputs.cache
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Inferring mRNA from Protein\Inferring mRNA from Protein\obj\Debug\Inferring mRNA from Protein.exe
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Inferring mRNA from Protein\Inferring mRNA from Protein\obj\Debug\Inferring mRNA from Protein.pdb

@@ -1,6 +1,0 @@
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Libraries\Csharp\Rosalind\Utils\Utils\bin\Debug\Utils.dll
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Libraries\Csharp\Rosalind\Utils\Utils\bin\Debug\Utils.pdb
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Libraries\Csharp\Rosalind\Utils\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Libraries\Csharp\Rosalind\Utils\Utils\obj\Debug\Utils.dll
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Libraries\Csharp\Rosalind\Utils\Utils\obj\Debug\Utils.pdb
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Libraries\Csharp\Rosalind\Utils\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache

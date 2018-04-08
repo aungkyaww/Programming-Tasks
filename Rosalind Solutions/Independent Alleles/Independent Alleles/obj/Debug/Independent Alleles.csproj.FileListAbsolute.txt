@@ -1,9 +1,0 @@
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Independent Alleles\Independent Alleles\bin\Debug\Independent Alleles.exe.config
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Independent Alleles\Independent Alleles\bin\Debug\Independent Alleles.exe
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Independent Alleles\Independent Alleles\bin\Debug\Independent Alleles.pdb
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Independent Alleles\Independent Alleles\bin\Debug\Rosalind.Utils.dll
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Independent Alleles\Independent Alleles\bin\Debug\Rosalind.Utils.pdb
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Independent Alleles\Independent Alleles\obj\Debug\Independent Alleles.csprojResolveAssemblyReference.cache
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Independent Alleles\Independent Alleles\obj\Debug\Independent Alleles.csproj.CoreCompileInputs.cache
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Independent Alleles\Independent Alleles\obj\Debug\Independent Alleles.exe
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Independent Alleles\Independent Alleles\obj\Debug\Independent Alleles.pdb

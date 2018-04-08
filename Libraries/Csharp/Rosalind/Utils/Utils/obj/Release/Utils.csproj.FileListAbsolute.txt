@@ -1,5 +1,0 @@
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Libraries\Csharp\Rosalind\Utils\Utils\obj\Release\Utils.csproj.CoreCompileInputs.cache
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Libraries\Csharp\Rosalind\Utils\Utils\bin\Release\Rosalind.Utils.dll
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Libraries\Csharp\Rosalind\Utils\Utils\bin\Release\Rosalind.Utils.pdb
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Libraries\Csharp\Rosalind\Utils\Utils\obj\Release\Rosalind.Utils.dll
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Libraries\Csharp\Rosalind\Utils\Utils\obj\Release\Rosalind.Utils.pdb

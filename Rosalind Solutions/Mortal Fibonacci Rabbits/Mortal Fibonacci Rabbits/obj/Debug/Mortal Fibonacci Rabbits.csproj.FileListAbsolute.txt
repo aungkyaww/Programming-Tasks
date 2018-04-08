@@ -1,7 +1,0 @@
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Mortal Fibonacci Rabbits\Mortal Fibonacci Rabbits\bin\Debug\Mortal Fibonacci Rabbits.exe.config
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Mortal Fibonacci Rabbits\Mortal Fibonacci Rabbits\bin\Debug\Mortal Fibonacci Rabbits.exe
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Mortal Fibonacci Rabbits\Mortal Fibonacci Rabbits\bin\Debug\Mortal Fibonacci Rabbits.pdb
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Mortal Fibonacci Rabbits\Mortal Fibonacci Rabbits\obj\Debug\Mortal Fibonacci Rabbits.csprojResolveAssemblyReference.cache
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Mortal Fibonacci Rabbits\Mortal Fibonacci Rabbits\obj\Debug\Mortal Fibonacci Rabbits.csproj.CoreCompileInputs.cache
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Mortal Fibonacci Rabbits\Mortal Fibonacci Rabbits\obj\Debug\Mortal Fibonacci Rabbits.exe
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Mortal Fibonacci Rabbits\Mortal Fibonacci Rabbits\obj\Debug\Mortal Fibonacci Rabbits.pdb

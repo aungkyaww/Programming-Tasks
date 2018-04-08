@@ -1,7 +1,0 @@
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Rabbits and Recurrence Relations\Rabbits and Recurrence Relations\bin\Debug\PR DNA 01.exe.config
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Rabbits and Recurrence Relations\Rabbits and Recurrence Relations\bin\Debug\PR DNA 01.exe
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Rabbits and Recurrence Relations\Rabbits and Recurrence Relations\bin\Debug\PR DNA 01.pdb
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Rabbits and Recurrence Relations\Rabbits and Recurrence Relations\obj\Debug\Rabbits and Recurrence Relations.csproj.CoreCompileInputs.cache
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Rabbits and Recurrence Relations\Rabbits and Recurrence Relations\obj\Debug\PR DNA 01.exe
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Rabbits and Recurrence Relations\Rabbits and Recurrence Relations\obj\Debug\PR DNA 01.pdb
-C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Rabbits and Recurrence Relations\Rabbits and Recurrence Relations\obj\Debug\Rabbits and Recurrence Relations.csprojResolveAssemblyReference.cache
