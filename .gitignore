@@ -11,5 +11,6 @@
 .pdb
 *.lock
 *.cache
-*.suo
-*.txt
+**/*.suo
+**/*.csproj.FileListAbsolute.txt
+**/*.csprojResolveAssemblyReference.cache
