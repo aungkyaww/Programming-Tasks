@@ -12,5 +12,4 @@
 *.lock
 *.cache
 *.suo
-MusicRepoAndPlayer/
-
+*.txt
