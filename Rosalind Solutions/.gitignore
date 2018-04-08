@@ -1,0 +1,17 @@
+
+*.ide
+*.ide
+*.ide-shm
+*.ide-wal
+*.pdb
+*.config
+*.xml
+*.ide
+*.ide
+.pdb
+*.lock
+*.cache
+**/*.suo
+**/*.txt
+*.csprojResolveAssemblyReference.cache
+*.cache
