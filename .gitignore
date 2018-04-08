@@ -12,5 +12,6 @@
 *.lock
 *.cache
 **/*.suo
-**/*.csproj.FileListAbsolute.txt
-**/*.csprojResolveAssemblyReference.cache
+Programming-Tasks/**/*.csproj.FileListAbsolute.txt
+Programming-Tasks/**/*.csprojResolveAssemblyReference.cache
+Programming-Tasks/**/*.cache
