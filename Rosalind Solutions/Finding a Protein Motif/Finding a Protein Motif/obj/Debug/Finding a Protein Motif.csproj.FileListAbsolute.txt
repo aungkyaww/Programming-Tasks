@@ -1,0 +1,9 @@
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Finding a Protein Motif\Finding a Protein Motif\bin\Debug\Finding a Protein Motif.exe.config
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Finding a Protein Motif\Finding a Protein Motif\bin\Debug\Finding a Protein Motif.exe
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Finding a Protein Motif\Finding a Protein Motif\bin\Debug\Finding a Protein Motif.pdb
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Finding a Protein Motif\Finding a Protein Motif\bin\Debug\Rosalind.Utils.dll
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Finding a Protein Motif\Finding a Protein Motif\bin\Debug\Rosalind.Utils.pdb
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Finding a Protein Motif\Finding a Protein Motif\obj\Debug\Finding a Protein Motif.csprojResolveAssemblyReference.cache
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Finding a Protein Motif\Finding a Protein Motif\obj\Debug\Finding a Protein Motif.csproj.CoreCompileInputs.cache
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Finding a Protein Motif\Finding a Protein Motif\obj\Debug\Finding a Protein Motif.exe
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Finding a Protein Motif\Finding a Protein Motif\obj\Debug\Finding a Protein Motif.pdb

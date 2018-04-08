@@ -87,8 +87,11 @@ namespace Rosalind.Utils
             return (double)totalGC / (double)dnaChars.Length;
         }
 
+        public static int count;
+
         public static List<Fasta> DecodeFasta(string[] lines)
         {
+            count++;
             List<Fasta> fastaList = new List<Fasta>();
             Fasta fasta = new Fasta();
             foreach (string line in lines)

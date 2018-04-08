@@ -1,0 +1,9 @@
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Calculating Expected Offspring\Calculating Expected Offspring\bin\Debug\Calculating Expected Offspring.exe.config
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Calculating Expected Offspring\Calculating Expected Offspring\bin\Debug\Calculating Expected Offspring.exe
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Calculating Expected Offspring\Calculating Expected Offspring\bin\Debug\Calculating Expected Offspring.pdb
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Calculating Expected Offspring\Calculating Expected Offspring\bin\Debug\Rosalind.Utils.dll
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Calculating Expected Offspring\Calculating Expected Offspring\bin\Debug\Rosalind.Utils.pdb
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Calculating Expected Offspring\Calculating Expected Offspring\obj\Debug\Calculating Expected Offspring.csprojResolveAssemblyReference.cache
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Calculating Expected Offspring\Calculating Expected Offspring\obj\Debug\Calculating Expected Offspring.csproj.CoreCompileInputs.cache
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Calculating Expected Offspring\Calculating Expected Offspring\obj\Debug\Calculating Expected Offspring.exe
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\Calculating Expected Offspring\Calculating Expected Offspring\obj\Debug\Calculating Expected Offspring.pdb

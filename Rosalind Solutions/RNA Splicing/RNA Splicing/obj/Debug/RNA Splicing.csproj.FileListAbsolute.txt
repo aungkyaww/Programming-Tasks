@@ -1,0 +1,9 @@
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\RNA Splicing\RNA Splicing\bin\Debug\Consensus and Profile.exe.config
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\RNA Splicing\RNA Splicing\bin\Debug\Consensus and Profile.exe
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\RNA Splicing\RNA Splicing\bin\Debug\Consensus and Profile.pdb
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\RNA Splicing\RNA Splicing\bin\Debug\Rosalind.Utils.dll
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\RNA Splicing\RNA Splicing\bin\Debug\Rosalind.Utils.pdb
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\RNA Splicing\RNA Splicing\obj\Debug\RNA Splicing.csprojResolveAssemblyReference.cache
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\RNA Splicing\RNA Splicing\obj\Debug\RNA Splicing.csproj.CoreCompileInputs.cache
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\RNA Splicing\RNA Splicing\obj\Debug\Consensus and Profile.exe
+C:\Users\Jake Yallop\Documents\GitHub\Programming-Tasks\Rosalind Solutions\RNA Splicing\RNA Splicing\obj\Debug\Consensus and Profile.pdb
