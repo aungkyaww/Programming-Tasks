@@ -13,5 +13,6 @@
 *.cache
 **/*.suo
 /*/*/obj/debug/*.txt
+**/*.txt
 *.csprojResolveAssemblyReference.cache
 *.cache
