@@ -13,6 +13,7 @@
 *.cache
 **/*.suo
 Programming-Tasks/**/debug/*.txt
+Programming-Tasks/**/*.txt
 Programming-Tasks/**/*.csprojResolveAssemblyReference.cache
 Programming-Tasks/**/debug/*.cache
 *.txt

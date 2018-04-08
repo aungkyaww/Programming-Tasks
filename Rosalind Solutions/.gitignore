@@ -12,6 +12,6 @@
 *.lock
 *.cache
 **/*.suo
-**/*.txt
+/*/*/obj/debug/*.txt
 *.csprojResolveAssemblyReference.cache
 *.cache
