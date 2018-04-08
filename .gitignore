@@ -15,3 +15,4 @@
 Programming-Tasks/**/debug/*.txt
 Programming-Tasks/**/*.csprojResolveAssemblyReference.cache
 Programming-Tasks/**/debug/*.cache
+*.txt

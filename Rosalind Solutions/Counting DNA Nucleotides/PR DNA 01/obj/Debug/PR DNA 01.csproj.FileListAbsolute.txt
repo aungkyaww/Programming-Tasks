@@ -2,6 +2,6 @@ C:\Users\Jake Yallop\source\repos\Project Rosalind\PR DNA 01\PR DNA 01\bin\Debug
 C:\Users\Jake Yallop\source\repos\Project Rosalind\PR DNA 01\PR DNA 01\bin\Debug\PR DNA 01.exe
 C:\Users\Jake Yallop\source\repos\Project Rosalind\PR DNA 01\PR DNA 01\bin\Debug\PR DNA 01.pdb
 C:\Users\Jake Yallop\source\repos\Project Rosalind\PR DNA 01\PR DNA 01\obj\Debug\PR DNA 01.csprojResolveAssemblyReference.cache
-C:\Users\Jake Yallop\source\repos\Project Rosalind\PR DNA 01\PR DNA 01\obj\Debug\PR DNA 01.csproj.CoreCompileInputs.cache
+C:\Users\Jake Yallop\source\repos\Project Rosalind\PR DNA 01\PR DNA 01\obj\Debu g\PR DNA 01.csproj.CoreCompileInputs.cache
 C:\Users\Jake Yallop\source\repos\Project Rosalind\PR DNA 01\PR DNA 01\obj\Debug\PR DNA 01.exe
 C:\Users\Jake Yallop\source\repos\Project Rosalind\PR DNA 01\PR DNA 01\obj\Debug\PR DNA 01.pdb
