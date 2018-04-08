@@ -14,4 +14,4 @@
 **/*.suo
 Programming-Tasks/**/*.csproj.FileListAbsolute.txt
 Programming-Tasks/**/*.csprojResolveAssemblyReference.cache
-Programming-Tasks/**/*.cache
+Programming-Tasks/**/debug/*.cache
