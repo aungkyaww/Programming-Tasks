@@ -51,7 +51,7 @@ namespace EnumeratingKmersLexicographically
 
                 Console.WriteLine(str);
             }
-            
+    
             Console.ReadLine();
         }
     }

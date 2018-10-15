@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28. Implement strStr()", "28. Implement strStr()\28. Implement strStr().csproj", "{8E604334-BA70-4063-A9A4-F1C1F7F8AB32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E604334-BA70-4063-A9A4-F1C1F7F8AB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E604334-BA70-4063-A9A4-F1C1F7F8AB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E604334-BA70-4063-A9A4-F1C1F7F8AB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E604334-BA70-4063-A9A4-F1C1F7F8AB32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5B5EE1A-F0A1-44D3-A398-C3BB7520F277}
+	EndGlobalSection
+EndGlobal
