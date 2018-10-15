@@ -19,3 +19,8 @@ Programming-Tasks/**/*.txt
 Programming-Tasks/**/*.csprojResolveAssemblyReference.cache
 Programming-Tasks/**/debug/*.cache
 *.txt
+Programming-Tasks/**/**/obj
+Programming-Tasks/**/**/**/obj
+Programming-Tasks/**/**/**/**/obj
+Programming-Tasks/**/**/**/**/**/obj
+
